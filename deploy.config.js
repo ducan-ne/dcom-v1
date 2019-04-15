@@ -4,7 +4,7 @@ module.exports = {
   apps: [
     {
       name: 'Stark',
-      script: './bin/www',
+      script: 'root.js',
       max_memory_restart: '200M',
       env_production: {
         PROC: true
