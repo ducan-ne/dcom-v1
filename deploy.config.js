@@ -3,7 +3,7 @@
 module.exports = {
   apps: [
     {
-      name: 'Stark',
+      name: 'DcomV1',
       script: 'root.js',
       max_memory_restart: '200M',
       env_production: {
