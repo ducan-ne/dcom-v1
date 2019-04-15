@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "root.js",
   "license": "MIT",
+  "scripts": {
+    "deploy": "pm2 deploy deploy.config.js production",
+    "refactor": "git add . && git commit -m 'refactor' && git push -u origin master"
+  },
   "dependencies": {
     "@luminati-io/socksv5": "^0.0.7",
     "anyproxy": "^4.1.0",
